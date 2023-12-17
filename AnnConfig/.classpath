@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-security-core-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-context-indexer-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-jms-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-aspects-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-test-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-websocket-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-messaging-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-webmvc-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-webflux-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-context-support-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-orm-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-web-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-oxm-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-jdbc-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-tx-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-context-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-expression-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-instrument-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-aop-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-beans-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-core-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/spring-jcl-5.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/hibernate-validator-4.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/validation-api-1.0.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/com.springsource.org.apache.commons.logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vakha/Downloads/spring 5.0.0/spring 5.0.0/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
