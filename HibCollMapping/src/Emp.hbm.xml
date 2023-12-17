@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+   <class name = "com.hibcoll.Emp" table = "userdata">
+    <meta attribute= "class-description">This class contains employee details.</meta>
+      <id name = "userid" type="int" column="userid">
+         <generator class="identity"></generator>
+      </id>
+      
+      <property name = "username" type="string" not-null= "true" length="100" column="username">
+      </property>
+      
+      <set name= "phnums" table="usercontactmapping" cascade="all">
+      		<key column="userid"/>
+      		<many-to-many column="phoneid" unique="true" class="com.hibcoll.Contact"/>
+      </set>
+      
+   </class>
+</hibernate-mapping>
