@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans 
+xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:p="http://www.springframework.org/schema/p" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-4.1.xsd"> 
+
+<!-- context:component- scan element helps to identify the java classes which can be 
+     registered as a spring beans. -->
+<context:component-scan base-package="com.core.SpringCore"></context:component-scan>
+
+<!-- bean tag tells about the bean class and its name to identify  -->
+<bean id="hot" class="com.core.SpringCore.Tea"> </bean> 
+<!--  <bean id="hot" class="com.core.SpringCore.Coffee"> </bean> -->
+
+<!-- property tag is to pass property value and constructor-arg tag is to pass value to constructor -->
+<bean id="brand" class="com.core.SpringCore.Brand">
+ <!--  	<property name="name" value="Taj Mahal" ></property> 
+ 	<property name="price" value="200" ></property> -->
+ 	<constructor-arg index="0" value="Nescaffe"></constructor-arg>
+ 	<constructor-arg index="1" value="70"></constructor-arg>
+</bean>
+</beans>
